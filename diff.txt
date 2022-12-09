@@ -1,0 +1,16 @@
+URL https://github.com/LorenzoBacchini/lab09
+
+CLONE git@github.com:LorenzoBacchini/lab09.git
+
+BRANCH exercises
+
+CASA 91-reactive-guis
+
+reactivegui02 presenta poche differenze ma la logica è la stessa, in particolare i bottoni vengono tenuti in 
+una lista per poter iterarci con un foreach quando devo disabilitarli e invece di usare due metodi (countup, countdown) ho
+creato un metodo con argomento booleano che settava direttamente il valore della variabile che determina il verso
+
+in reactivegui03 la mia implementazione è più simile a AnotherConcurrentGuiWithLamdbads. ho però lasciato la parte di disattivazione dei 
+bottoni e del conteggio all'interno del thread e non ho usato invokeLater  
+
+LAB 92-workers
